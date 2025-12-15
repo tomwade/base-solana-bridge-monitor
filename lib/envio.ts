@@ -33,6 +33,7 @@ interface Token {
   name: string | null
   symbol: string | null
   decimals: number | null
+  solanaMintAddress: string | null
   totalBridgedToSolana: string
   totalBridgedFromSolana: string
   bridgeCountToSolana: number

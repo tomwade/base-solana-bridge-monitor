@@ -14,8 +14,7 @@ interface PriceCache {
 }
 
 interface TokenAddressMapping {
-  [baseAddress: string]: string // Maps Base address to Solana address
-  [solanaAddress: string]: string // Maps Solana address to Base address
+  [address: string]: string // Maps Base address to Solana address and vice versa
 }
 
 const CACHE_DURATION = 60 * 1000 // 60 seconds in milliseconds
